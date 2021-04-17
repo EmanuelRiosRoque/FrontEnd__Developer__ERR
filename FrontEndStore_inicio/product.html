@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+    
+    <nav class="navbar">
+        <a class="nav__link nav__link--activo" href="index.html">Tienda</a>
+        <a class="nav__link" href="us.html">Nosoteos</a>
+    </nav>
+
+    <main class="container">
+        <h1>Reack JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="/img/3.jpg" alt="">
+
+            <div class="camisa__contenido">
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, dolore! Consequuntur aliquid alias, repellat nostrum eius cupiditate sunt amet nihil aspernatur impedit distinctio aut suscipit veritatis veniam est ipsa dignissimos.</p>
+
+                <form class="formulario">
+
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talla--</option> <!--Le damos ña funcin de que este seleccionado pro defecto pero que no pertenesca a una opcion de compra-->
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+
+                    <input class="formulario__campo" type="number" placeholder="Cantidada" min="1" max="10">
+
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - Todos lo derechos reservados a Emanuel Rios Roque Developer 2021</p>
+    </footer>
+
+</body>
+</html>
